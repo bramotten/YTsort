@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "YouTube playlist sorter",
+  "version": "0.1",
+  "description": "Made instead of separating \"watch later\" into \"long\" and \"short\" playlists. For lectures, of course. Not Red Letter Media.",
+
+  "permissions": [
+    "http://youtube.com/playlist*",
+    "http://www.youtube.com/playlist*",
+    "https://youtube.com/playlist*",
+    "https://www.youtube.com/playlist*"
+  ],
+
+  "browser_action": {
+    "icons": {
+      "16": "stuff/icon-16.png", 
+      "48": "stuff/icon-48.png",
+      "128": "stuff/icon-128.png"
+    },
+    "default_popup": "popup.html",
+    "default_icon": "stuff/icon-128.png"
+  }
+}
